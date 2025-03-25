@@ -33,7 +33,7 @@
 
     "test": {
       "name": "LEVIR-CD-256",
-      "datasetroot": "/Dataset_Sample",
+      "datasetroot": "\Dataset_Sample",
       "resolution": 256,
       "num_workers": 2,
       "batch_size": 6,
