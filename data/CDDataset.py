@@ -158,11 +158,11 @@ class SCDDataset(Dataset):
                 'Index':index, 'name':name, 'cls1':cls_label1, 'cls2':cls_label2}
 
 if __name__ == '__main__':
-    root_dir = r'E:\cddataset\mmcd\Second_my'
+    root_dir = r'C:\Users\Dell\RepoResults\RepoResults'
     cddata = SCDDataset(root_dir=root_dir)
     list_path = os.path.join(root_dir, 'list', 'val', '.txt')
-    for i in range(593):
-        cls_labe1 = cddata.__getitem__(i)['cls1']
-        print(cls_labe1)
-        cls_labe2 = cddata.__getitem__(i)['cls2']
-        print(cls_labe2)
+    # for i in range(593):
+    #     cls_labe1 = cddata.__getitem__(i)['cls1']
+    #     print(cls_labe1)
+    #     cls_labe2 = cddata.__getitem__(i)['cls2']
+    #     print(cls_labe2)
